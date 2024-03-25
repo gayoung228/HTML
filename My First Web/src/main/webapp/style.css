@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+body{
+	background-color: #DCDCDC
+}
+
+.frame{
+	margin: 30px 150px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*navigator bar*/
+
+.navigator{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+li{
+	display: inline;
+	align-self: center;
+	margin:0;
+	margin-left: 15px;
+}
+
+ul{
+	margin: 0px;
+}
+
+.site-name{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 24px;
+	color: #C2B4AB;
+}
+
+.nav-menu{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	transitions: 0.3s
+}
+
+/*dashboard*/
+
+.dashboard{
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+}
+
+.korean-comment{
+	font-family: 'Noto Sans ENG', sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.sample{
+	background-color: gray;
+}
+
+.sample:hover{
+	background-color: transparent;
+	color: white;
+	-webkit-text-stroke: 1px black;
+	transition: none;
+}
+
+.highlight{
+	color: white;
+	-webkit-text-stroke: 1px black;
+	transition: none;
+}
+
+.highlight:hover{
+	background-color: gray;
+	color: black;
+	transiotion: none;
+}
+
+.type1:hover{
+	background-color: white;
+}
+
+.type2:hover{
+	background-color: white;
+}
+
+.type3:hover{
+	background-color: white;
+}
+
+.english-comment{
+	font-family: 'Noto Sans ENG', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	font-style: italic;
+	
+	letter-spacing: -0.3px;
+}
+
+/*recent works*/
+
+.recent-menu{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: C2B4AB;
+	
+	text-align: right;
+	margin-top: 100px;
+}
+
+/*footer*/
+
+.footer{
+	display: flex:
+	flex-directions:column;
+	align-items: center;
+	margin-bottom: 150px;
+}
+
+.contact{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	margin-bottom: 40px;
+	border-bottom: 2px solid black;
+}
+
+.blog{
+	font-size: 20px;
+}
+
+.instagram{
+	font-size: 20px;
+}
+
+.LinkedIn{
+	font-size: 20px;
+}
+
+.links>a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	margin-left: 15px;
+}
+
+.footer>p{
+	font-family: 'Noto Sans ENG', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	font-style: italic;
+	margin: 0;
+	margin-top: 5px;
+}
+
+/*recent-works*/
+.recent-works{
+	display: flex;
+	flex-direction: column;
+}
+
+.article{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 120px;
+}
+
+.thumbnail{
+	width: 600px;
+}
+
+.article-info{
+	margin: 0px 20px;
+}
+
+.article-name{
+	font-style: 'Noto Sans ENG', sans-serif;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.article-name:hover{
+	color: white;
+	-webkit-text-stroke: 1px black;
+	transition: 0.3s;
+}
+
+.aricle-comment{
+	font-family: 'Noto Sans ENG', sans-serif;
+	font-size: 16px;
+	font-weitght: 100;
+}
+
+.more{
+	width: content;
+	height: content;
+	float: right;
+	margin-right: 10px;
+	
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	padding: 0px;
+}
+
+#name1{
+	position: relative;
+	right: 0px;
+}
+
+#name2{
+	text-align: left;
+	position: relative;
+	left: 0px;
+}
+
+.about{
+	font-size: 35px;
+}
+
+.info{
+	font-size: 15px;
+	line-height: 40px;
+	margin-bottom: 40px;
+}
+
+.programming-language{
+	font-size: 35px;
+}
+
+
+
+
